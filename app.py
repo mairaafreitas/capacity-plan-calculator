@@ -1,7 +1,7 @@
-from bandwith_calculator import calculate_bandwith
-from requests_per_sec_calculator import calculate_rps
+from calculators.bandwith_calculator import calculate_bandwith
+from calculators.requests_per_sec_calculator import calculate_rps
 
-from storage_calculator import calculate_storage
+from calculators.storage_calculator import calculate_storage
 
 print("\nWelcome to the Capacity Plan Calculator")
 

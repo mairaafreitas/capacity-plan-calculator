@@ -1,7 +1,7 @@
 import unittest
-from utils import gb_to_tb
-from utils import kb_to_mb
-from utils import mb_to_gb
+from support.utils import gb_to_tb
+from support.utils import kb_to_mb
+from support.utils import mb_to_gb
 
 
 class TestMbToGb(unittest.TestCase):

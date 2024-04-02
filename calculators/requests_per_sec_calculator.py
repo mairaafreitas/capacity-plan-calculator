@@ -1,4 +1,4 @@
-from utils import SECONDS_PER_DAY
+from support.utils import SECONDS_PER_DAY
 
 
 def calculate_rps(daily_active_users: int, requests_per_user: int, reads: int, writes: int):

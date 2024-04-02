@@ -1,8 +1,8 @@
-from utils import DAYS_OF_THE_YEAR
-from utils import SECONDS_PER_DAY
-from utils import gb_to_tb
-from utils import kb_to_mb
-from utils import mb_to_gb
+from support.utils import DAYS_OF_THE_YEAR
+from support.utils import SECONDS_PER_DAY
+from support.utils import gb_to_tb
+from support.utils import kb_to_mb
+from support.utils import mb_to_gb
 
 
 def calculate_storage(writes_per_second: int, size_for_request: int, replication_factor: int):

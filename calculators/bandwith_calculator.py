@@ -1,4 +1,4 @@
-from utils import kb_to_mb
+from support.utils import kb_to_mb
 
 
 def calculate_bandwith(requests_per_second: int, request_size: int):
